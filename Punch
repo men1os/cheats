@@ -1,0 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "t.me/men1os_news";
+ Text = "Join!";
+ Icon = "rbxthumb://type=Asset&id=13740999916&w=150&h=150"})
+Duration = 5;
+while task.wait() do
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("DamageIncreaseOnClickEvent"):FireServer()
+end
