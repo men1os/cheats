@@ -1,0 +1,7 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "t.me/men1os_news";
+ Text = "Join!";
+ Icon = "rbxthumb://type=Asset&id=13740999916&w=150&h=150"})
+Duration = 5;
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(85.50822448730469, 107.88850402832031, -695.5932006835938)
+wait(1.5)
