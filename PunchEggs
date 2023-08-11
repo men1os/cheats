@@ -1,0 +1,15 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "t.me/men1os_news";
+ Text = "Join!";
+ Icon = "rbxthumb://type=Asset&id=13740999916&w=150&h=150"})
+Duration = 5;
+getgenv().autoEgg = true
+
+    while getgenv().autoEgg do
+    local args = {
+        [1] = "1"
+    }
+
+    game:GetService("ReplicatedStorage").Events.PlayerPressedKeyOnEgg:FireServer(unpack(args))
+    wait()
+end
