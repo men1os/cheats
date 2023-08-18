@@ -1,0 +1,10 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "t.me/men1os_cheats";
+ Text = "Join!";
+ Icon = "rbxthumb://type=Asset&id=13740999916&w=150&h=150"})
+Duration = 5;
+ 
+_G.boomboxb = game:GetObjects('rbxassetid://740618400')[1]
+_G.boomboxb.Parent = game:GetService'Players'.LocalPlayer.Backpack
+loadstring(_G.boomboxb.Client.Source)() 
+loadstring(_G.boomboxb.Server.Source)() --the original scripts made by roblox with minor changes.
