@@ -1,0 +1,14 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "t.me/men1os_news";
+ Text = "Join!";
+ Icon = "rbxthumb://type=Asset&id=13740999916&w=150&h=150"})
+Duration = 5;
+local args = {
+    [1] = {
+        ["ItemType"] = Enum.AvatarItemType.Asset,
+        ["Action"] = "PromptItemPurchase",
+        ["ItemId"] = 14463154154
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("CatalogGuiRemoteEvent"):FireServer(unpack(args))
